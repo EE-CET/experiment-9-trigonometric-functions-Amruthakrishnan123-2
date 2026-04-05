@@ -1,12 +1,14 @@
 import java.util.*;
 
-public class Trigonometry {
+public class TrigFunctions {
 
+    // Method to calculate sine
     public static double sine(double angle) {
         double radians = Math.toRadians(angle);
         return Math.sin(radians);
     }
 
+    // Method to calculate cosine
     public static double cosine(double angle) {
         double radians = Math.toRadians(angle);
         return Math.cos(radians);
